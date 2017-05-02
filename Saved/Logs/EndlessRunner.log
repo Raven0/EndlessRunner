@@ -1,0 +1,1053 @@
+﻿Log file open, 04/30/17 06:49:21
+LogInit:Display: Running engine for game: EndlessRunner
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1165638453) SRandInit(-1165638453).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.067560
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/WORK/PROJECT/UE4/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.29-23.49.22:784][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.29-23.49.22:784][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.29-23.49.22:846][  0]LogInit: Computer: LAPTOP-SGJ17T07
+[2017.04.29-23.49.22:846][  0]LogInit: User: azhzh
+[2017.04.29-23.49.22:846][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.04.29-23.49.22:846][  0]LogInit: High frequency timer resolution =2.648441 MHz
+[2017.04.29-23.49.22:846][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.29-23.49.22:846][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.29-23.49.22:846][  0]LogMemory: Process Physical Memory: 263.01 MB used, 263.01 MB peak
+[2017.04.29-23.49.22:846][  0]LogMemory: Process Virtual Memory: 262.11 MB used, 262.11 MB peak
+[2017.04.29-23.49.22:846][  0]LogMemory: Physical Memory: 5580.03 MB used,  2480.20 MB free, 8060.22 MB total
+[2017.04.29-23.49.22:846][  0]LogMemory: Virtual Memory: 628.95 MB used,  2480.20 MB free, 134217728.00 MB total
+[2017.04.29-23.49.22:926][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.29-23.49.23:759][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.29-23.49.23:805][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2017.04.29-23.49.23:805][  0]LogD3D11RHI:       2019/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.29-23.49.23:811][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.04.29-23.49.23:811][  0]LogD3D11RHI:       128/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.29-23.49.23:813][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.29-23.49.23:813][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.29-23.49.23:813][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.29-23.49.23:819][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.29-23.49.23:819][  0]LogD3D11RHI:     GPU DeviceId: 0x179c (for the marketing name, search the web for "GPU Device Id")
+[2017.04.29-23.49.23:819][  0]LogWindows: EnumDisplayDevices:
+[2017.04.29-23.49.23:819][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.04.29-23.49.23:819][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.04.29-23.49.23:820][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.04.29-23.49.23:820][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.29-23.49.23:820][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2017.04.29-23.49.23:820][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.29-23.49.23:820][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.29-23.49.23:820][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.29-23.49.23:847][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.29-23.49.23:864][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.29-23.49.23:865][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (../../../../EndlessRunner/Intermediate/Shaders/WorkingDirectory/2588/).
+[2017.04.29-23.49.23:865][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/azhzh/AppData/Local/Temp/UnrealShaderWorkingDir/4D4BD0884490C97485723D994CF2A55C/'.
+[2017.04.29-23.49.23:865][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.29-23.49.25:089][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.29-23.49.25:156][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.29-23.49.25:219][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.29-23.49.25:275][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.29-23.49.25:327][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.29-23.49.25:378][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.29-23.49.25:434][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.29-23.49.25:492][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.29-23.49.25:534][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.29-23.49.25:587][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.29-23.49.25:638][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.29-23.49.25:690][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.29-23.49.25:749][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.29-23.49.25:807][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.29-23.49.25:858][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.29-23.49.25:959][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.29-23.49.25:960][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.29-23.49.25:995][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.29-23.49.26:106][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.29-23.49.26:137][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.29-23.49.26:190][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.29-23.49.26:240][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.29-23.49.26:302][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.29-23.49.26:369][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.29-23.49.26:369][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.29-23.49.27:005][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.29-23.49.27:056][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/azhzh/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.29-23.49.27:056][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/azhzh/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.29-23.49.27:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../EndlessRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.29-23.49.27:056][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.29-23.49.27:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../EndlessRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.29-23.49.27:056][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.29-23.49.27:074][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.29-23.49.27:086][  0]LogDerivedDataCache: Using Local data cache path C:/Users/azhzh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.29-23.49.27:095][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.29-23.49.27:096][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.29-23.49.27:096][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.29-23.49.27:474][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.29-23.49.27:482][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.29-23.49.27:831][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.29-23.49.27:893][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.29-23.49.27:988][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.29-23.49.27:988][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.29-23.49.27:988][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.29-23.49.28:727][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: endlessrunner, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2544358079
+[2017.04.29-23.49.28:776][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.04.29-23.49.28:843][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.044292 seconds
+[2017.04.29-23.49.28:851][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.29-23.49.28:851][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.29-23.49.28:851][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.29-23.49.28:918][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.29-23.49.31:848][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.29-23.49.31:974][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.29-23.49.32:743][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.29-23.49.33:484][  0]SourceControl: Info Source control is disabled
+[2017.04.29-23.49.33:489][  0]SourceControl: Info Source control is disabled
+[2017.04.29-23.49.33:566][  0]SourceControl: Info Source control is disabled
+[2017.04.29-23.49.33:618][  0]SourceControl: Info Source control is disabled
+[2017.04.29-23.49.34:040][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.04.29-23.49.34:040][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.04.29-23.49.34:040][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2017.04.29-23.49.35:215][  0]LogEngine: Initializing Engine...
+[2017.04.29-23.49.35:215][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.29-23.49.35:507][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.29-23.49.35:519][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.29-23.49.35:538][  0]LogInit: FAudioDevice initialized.
+[2017.04.29-23.49.35:578][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/azhzh/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.29-23.49.35:585][  0]LogInit: Texture streaming: Enabled
+[2017.04.29-23.49.35:697][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.29-23.49.35:784][  0]LogInit: Transaction tracking system initialized
+[2017.04.29-23.49.36:110][  0]BlueprintLog: New page: Editor Load
+[2017.04.29-23.49.37:376][  0]LocalizationService: Info Localization service is disabled
+[2017.04.29-23.49.38:115][  0]LogConsoleResponse:Display: 
+[2017.04.29-23.49.38:591][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.29-23.49.38:591][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.29-23.49.39:031][  0]LogFileCache: Scanning file cache for directory 'E:/WORK/PROJECT/UE4/EndlessRunner/Content/' took 0.01s
+[2017.04.29-23.49.39:622][  0]SourceControl: Info Source control is disabled
+[2017.04.29-23.49.39:844][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/WORK/PROJECT/UE4/UE_4.15/FeaturePacks/StarterContent.upack)
+[2017.04.29-23.49.39:961][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.04.29-23.49.40:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.04.29-23.49.40:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.04.29-23.49.40:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.04.29-23.49.40:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.04.29-23.49.40:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.04.29-23.49.40:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.04.29-23.49.40:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.04.29-23.49.40:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.04.29-23.49.40:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.04.29-23.49.40:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.04.29-23.49.40:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../EndlessRunner/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.04.29-23.49.40:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.04.29-23.49.40:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.04.29-23.49.40:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.04.29-23.49.40:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.04.29-23.49.40:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.04.29-23.49.40:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.04.29-23.49.40:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Fire01.uasset"
+[2017.04.29-23.49.40:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.04.29-23.49.40:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.04.29-23.49.40:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.04.29-23.49.40:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Light01.uasset"
+[2017.04.29-23.49.40:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.04.29-23.49.40:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Light02.uasset"
+[2017.04.29-23.49.40:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.04.29-23.49.40:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.04.29-23.49.41:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.04.29-23.49.41:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.04.29-23.49.41:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.04.29-23.49.42:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.04.29-23.49.42:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.04.29-23.49.42:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.04.29-23.49.42:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.04.29-23.49.42:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Steam01.uasset"
+[2017.04.29-23.49.42:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.04.29-23.49.42:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.04.29-23.49.42:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.04.29-23.49.42:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.04.29-23.49.42:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.04.29-23.49.42:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.04.29-23.49.42:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.04.29-23.49.42:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.04.29-23.49.42:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.04.29-23.49.42:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.04.29-23.49.42:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.04.29-23.49.43:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.04.29-23.49.43:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.04.29-23.49.43:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.04.29-23.49.43:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.04.29-23.49.43:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.04.29-23.49.43:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../EndlessRunner/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.04.29-23.49.55:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../EndlessRunner/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.04.29-23.49.55:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../EndlessRunner/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.04.29-23.49.55:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../EndlessRunner/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.04.29-23.49.55:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../EndlessRunner/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.04.29-23.49.55:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../EndlessRunner/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.04.29-23.49.56:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../EndlessRunner/Content/StarterContent/Maps/StarterMap.umap"
+[2017.04.29-23.49.56:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../EndlessRunner/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.04.29-23.49.56:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.04.29-23.49.56:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.04.29-23.49.56:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.04.29-23.49.56:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.04.29-23.49.56:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.04.29-23.49.56:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.04.29-23.49.56:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.04.29-23.49.56:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.04.29-23.49.56:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.04.29-23.49.56:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.04.29-23.49.56:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.04.29-23.49.56:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.04.29-23.49.56:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.04.29-23.49.56:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.04.29-23.49.56:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.04.29-23.49.57:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.04.29-23.49.57:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.04.29-23.49.57:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.04.29-23.49.57:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.04.29-23.49.57:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.04.29-23.49.57:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.04.29-23.49.57:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.04.29-23.49.57:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.04.29-23.49.57:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.04.29-23.49.57:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.04.29-23.49.57:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.04.29-23.49.57:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.04.29-23.49.57:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.04.29-23.49.57:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.04.29-23.49.57:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.04.29-23.49.57:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.04.29-23.49.57:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.04.29-23.49.57:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.04.29-23.49.57:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.04.29-23.49.57:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.04.29-23.49.57:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.04.29-23.49.57:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.04.29-23.49.57:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.04.29-23.49.57:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.04.29-23.49.57:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.04.29-23.49.57:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.04.29-23.49.57:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.04.29-23.49.57:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../EndlessRunner/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.04.29-23.49.57:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.04.29-23.49.57:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.04.29-23.49.57:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.04.29-23.49.57:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.04.29-23.49.57:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.04.29-23.49.57:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.04.29-23.49.57:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.04.29-23.49.57:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.04.29-23.49.57:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.04.29-23.49.57:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.04.29-23.49.57:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.04.29-23.49.57:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.04.29-23.49.57:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.04.29-23.49.57:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.04.29-23.49.57:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.04.29-23.49.57:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../EndlessRunner/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.04.29-23.49.57:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.04.29-23.49.57:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.04.29-23.49.57:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.04.29-23.49.57:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.04.29-23.49.57:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.04.29-23.49.57:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Door.uasset"
+[2017.04.29-23.49.57:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.04.29-23.49.57:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.04.29-23.49.57:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.04.29-23.49.57:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.04.29-23.49.57:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.04.29-23.49.57:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.04.29-23.49.57:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.04.29-23.49.57:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.04.29-23.49.57:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.04.29-23.49.57:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.04.29-23.49.57:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.04.29-23.49.57:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.04.29-23.49.57:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.04.29-23.49.58:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.04.29-23.49.58:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.04.29-23.49.58:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.04.29-23.49.58:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.04.29-23.49.58:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.04.29-23.49.58:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.04.29-23.49.58:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.04.29-23.49.58:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.04.29-23.49.58:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.04.29-23.49.58:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.04.29-23.49.58:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.04.29-23.49.58:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../EndlessRunner/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.04.29-23.49.58:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.04.29-23.49.58:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.04.29-23.49.58:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.04.29-23.49.58:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.04.29-23.49.58:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.04.29-23.49.58:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.04.29-23.49.58:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.04.29-23.49.58:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.04.29-23.49.58:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.04.29-23.49.58:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.04.29-23.49.58:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.04.29-23.49.58:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.04.29-23.49.58:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.04.29-23.49.58:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.04.29-23.49.58:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.04.29-23.49.58:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.04.29-23.49.58:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.04.29-23.49.58:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.04.29-23.49.58:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../EndlessRunner/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.04.29-23.49.58:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.04.29-23.49.58:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.04.29-23.49.58:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.04.29-23.49.59:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.04.29-23.49.59:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.04.29-23.49.59:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.04.29-23.49.59:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.04.29-23.49.59:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.04.29-23.49.59:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.04.29-23.49.59:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.04.29-23.49.59:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.04.29-23.49.59:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.04.29-23.50.00:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.04.29-23.50.00:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.04.29-23.50.00:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.04.29-23.50.00:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.04.29-23.50.00:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.04.29-23.50.00:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.04.29-23.50.00:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.04.29-23.50.00:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.04.29-23.50.00:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.04.29-23.50.00:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.04.29-23.50.00:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.04.29-23.50.00:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.04.29-23.50.00:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.04.29-23.50.00:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.04.29-23.50.01:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.04.29-23.50.01:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.04.29-23.50.01:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.04.29-23.50.01:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.04.29-23.50.01:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.04.29-23.50.04:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.04.29-23.50.04:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.04.29-23.50.04:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.04.29-23.50.04:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.04.29-23.50.05:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.04.29-23.50.05:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.04.29-23.50.05:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.04.29-23.50.05:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.04.29-23.50.05:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.04.29-23.50.05:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.04.29-23.50.05:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.04.29-23.50.06:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.04.29-23.50.06:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.04.29-23.50.06:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.04.29-23.50.06:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.04.29-23.50.06:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.04.29-23.50.06:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.04.29-23.50.06:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.04.29-23.50.07:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.04.29-23.50.07:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.04.29-23.50.07:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.04.29-23.50.07:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.04.29-23.50.07:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.04.29-23.50.07:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.04.29-23.50.07:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.04.29-23.50.09:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.04.29-23.50.10:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.04.29-23.50.10:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.04.29-23.50.10:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.04.29-23.50.10:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.04.29-23.50.11:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.04.29-23.50.11:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.04.29-23.50.11:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.04.29-23.50.11:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.04.29-23.50.11:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.04.29-23.50.12:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.04.29-23.50.12:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.04.29-23.50.13:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.04.29-23.50.13:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.04.29-23.50.13:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.04.29-23.50.14:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.04.29-23.50.14:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.04.29-23.50.14:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.04.29-23.50.15:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.04.29-23.50.15:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.04.29-23.50.15:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.04.29-23.50.15:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.04.29-23.50.15:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.04.29-23.50.15:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.04.29-23.50.15:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.04.29-23.50.15:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.04.29-23.50.15:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.04.29-23.50.15:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.04.29-23.50.15:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.04.29-23.50.15:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.04.29-23.50.15:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.04.29-23.50.15:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.04.29-23.50.15:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.04.29-23.50.15:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.04.29-23.50.15:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.04.29-23.50.16:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.04.29-23.50.16:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.04.29-23.50.16:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.04.29-23.50.17:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.04.29-23.50.17:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.04.29-23.50.17:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.04.29-23.50.18:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.04.29-23.50.18:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.04.29-23.50.19:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.04.29-23.50.19:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.04.29-23.50.19:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.04.29-23.50.19:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../EndlessRunner/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.04.29-23.50.22:601][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.04.29-23.50.24:987][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../EndlessRunner/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.04.29-23.50.25:160][  0]LogSavePackage: Save=123.86ms
+[2017.04.29-23.50.25:160][  0]LogSavePackage: Moving '../../../../EndlessRunner/Saved/Floor_400x40009263C034B58E1DAA91D3AB535CFE8B6.tmp' to '../../../../EndlessRunner/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.04.29-23.50.25:172][  0]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.04.29-23.50.25:172][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.04.29-23.50.25:173][  0]Cmd: MAP LOAD FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.29-23.50.25:173][  0]LightingResults: New page: Lighting Build
+[2017.04.29-23.50.25:212][  0]MapCheck: New page: Map Check
+[2017.04.29-23.50.25:212][  0]LightingResults: New page: Lighting Build
+[2017.04.29-23.50.28:016][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.29-23.50.29:089][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.29-23.50.29:164][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.29-23.50.29:241][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.361ms to complete.
+[2017.04.29-23.50.29:241][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.068
+[2017.04.29-23.50.31:749][  0]LogCollectionManager: Loaded 0 collections in 0.002574 seconds
+[2017.04.29-23.50.32:111][  0]LogFileCache: Scanning file cache for directory 'E:/WORK/PROJECT/UE4/EndlessRunner/Saved/Collections/' took 0.01s
+[2017.04.29-23.50.32:111][  0]LogFileCache: Scanning file cache for directory 'E:/WORK/PROJECT/UE4/EndlessRunner/Content/Developers/azhzh/Collections/' took 0.01s
+[2017.04.29-23.50.32:111][  0]LogFileCache: Scanning file cache for directory 'E:/WORK/PROJECT/UE4/EndlessRunner/Content/Collections/' took 0.01s
+[2017.04.29-23.50.32:111][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.04.29-23.50.32:150][  0]LogContentBrowser: Native class hierarchy populated in 0.0330 seconds. Added 2246 classes and 455 folders.
+[2017.04.29-23.50.32:453][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.29-23.50.32:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.29-23.50.32:576][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.29-23.50.32:635][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.29-23.50.33:463][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.29-23.50.33:951][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.29-23.50.34:060][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.29-23.50.34:060][  0]LogLoad: (Engine Initialization) Total time: 73.71 seconds
+[2017.04.29-23.50.34:060][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.98 seconds
+[2017.04.29-23.50.34:060][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.29-23.50.34:060][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.29-23.50.34:081][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.29-23.50.34:081][  0]LogOcInput: OculusInput pre-init called
+[2017.04.29-23.50.34:559][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.29-23.50.34:577][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.29-23.50.34:581][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.29-23.50.34:721][  0]LogSlate: Took 0.013421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.29-23.50.36:297][  0]LogRenderer: Reallocating scene render targets to support 840x420 NumSamples 1 (Frame:3).
+[2017.04.29-23.50.36:297][  0]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.29-23.50.37:934][  3]LogAssetRegistry: Asset discovery search completed in 69.1800 seconds
+[2017.04.29-23.50.37:935][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.04.29-23.50.37:935][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.04.29-23.53.40:572][968]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.29-23.53.41:563][968]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2017.04.29-23.53.41:563][968]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/RunCharacter.SKEL_RunCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2017.04.29-23.53.41:698][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2017.04.29-23.53.41:774][968]LogSavePackage: Save=75.16ms
+[2017.04.29-23.53.41:774][968]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacter051033C3439113B99093A885EFFB81EF.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2017.04.29-23.53.41:775][968]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2017.04.29-23.53.41:782][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.04.29-23.53.41:827][968]LogSavePackage: Save=14.74ms
+[2017.04.29-23.53.41:827][968]LogSavePackage: Moving '../../../../EndlessRunner/Saved/ThirdPersonCharacterE427279543F376E23C8579915FD85403.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.29-23.53.41:829][968]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.29-23.53.45:722][ 41]LogSlate: Took 0.000402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.29-23.53.46:528][ 41]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.04.29-23.53.49:506][ 41]LogSlate: Took 0.017977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.29-23.53.51:587][ 42]LogSlate: Took 0.021336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.29-23.54.16:334][679]LogEditorTransaction: Undo Delete current selection
+[2017.04.29-23.54.16:672][679]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.29-23.54.21:165][876]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-23.54.42:343][348]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-23.55.17:889][785]LogRenderer: Reallocating scene render targets to support 840x600 NumSamples 1 (Frame:3218).
+[2017.04.29-23.55.55:047][191]BlueprintLog: New page: Compile RunCharacter
+[2017.04.29-23.57.01:773][455]BlueprintLog: New page: Compile RunCharacter
+[2017.04.30-00.00.45:837][959]LogSavePackage: Save=212.56ms
+[2017.04.30-00.00.45:837][959]LogSavePackage: Moving '../../../../EndlessRunner/Saved/ThirdPersonExampleMap_Auto16DE8E3B04F5C79CFBB3A72835A6366AA.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.04.30-00.00.45:838][959]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.04.30-00.00.45:895][959]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.382
+[2017.04.30-00.00.45:895][959]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.382
+[2017.04.30-00.00.45:898][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2017.04.30-00.00.45:929][959]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2017.04.30-00.00.45:929][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2017.04.30-00.00.45:989][959]LogSavePackage: Save=37.20ms
+[2017.04.30-00.00.45:989][959]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacter_Auto1CFB0B83D4AF221054D95089AD6315498.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto1.uasset'
+[2017.04.30-00.00.45:990][959]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto1.uasset
+[2017.04.30-00.00.45:990][959]LogFileHelpers: Auto-saving content packages took 0.093
+[2017.04.30-00.00.53:344][349]LogSlate: Took 0.024402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.04.30-00.01.43:234][822]LogEditorTransaction: Undo Add Node
+[2017.04.30-00.10.06:716][276]BlueprintLog: New page: Compile RunCharacter
+[2017.04.30-00.10.10:294][445]BlueprintLog: New page: Compile RunCharacter
+[2017.04.30-00.10.44:517][703]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.10.44:564][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.10.44:586][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.10.44:665][703]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:10:44 PM)
+[2017.04.30-00.10.44:702][703]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.10.44:861][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158278s)
+[2017.04.30-00.10.44:861][703]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.10.44:862][703]LogPlayLevel: PIE: World Init took: (0.001163s)
+[2017.04.30-00.10.44:867][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.183933s)
+[2017.04.30-00.10.45:100][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.10.45:110][703]LogInit: FAudioDevice initialized.
+[2017.04.30-00.10.45:398][703]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.10.45:559][703]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.30-07.10.45
+[2017.04.30-00.10.45:618][703]LogWorld: Bringing up level for play took: 0.061289
+[2017.04.30-00.10.46:123][703]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.30-00.10.46:210][703]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.37
+[2017.04.30-00.10.46:211][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.11.05:329][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.11.05:491][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.11.06:849][762]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.11.06:853][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.11.06:853][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.11.06:854][762]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:11:06 PM)
+[2017.04.30-00.11.06:854][762]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.11.06:875][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021732s)
+[2017.04.30-00.11.06:876][762]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.11.06:876][762]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2017.04.30-00.11.06:876][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022667s)
+[2017.04.30-00.11.06:915][762]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.11.06:925][762]LogInit: FAudioDevice initialized.
+[2017.04.30-00.11.06:991][762]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.11.06:994][762]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.30-07.11.06
+[2017.04.30-00.11.06:994][762]LogWorld: Bringing up level for play took: 0.001849
+[2017.04.30-00.11.06:995][762]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.155
+[2017.04.30-00.11.06:995][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.11.12:859][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.11.12:899][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.11.38:307][285]LogSavePackage: Save=140.19ms
+[2017.04.30-00.11.38:307][285]LogSavePackage: Moving '../../../../EndlessRunner/Saved/ThirdPersonExampleMap_Auto23B5B84894F3D7E89360F07897FE27E78.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.04.30-00.11.38:308][285]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.04.30-00.11.38:309][285]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.181
+[2017.04.30-00.11.38:309][285]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.181
+[2017.04.30-00.11.38:311][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2017.04.30-00.11.38:365][285]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2017.04.30-00.11.38:365][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2017.04.30-00.11.38:431][285]LogSavePackage: Save=62.97ms
+[2017.04.30-00.11.38:431][285]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacter_Auto22D156AAD4C8EF38F2B9BF1B51A0DA9D9.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto2.uasset'
+[2017.04.30-00.11.38:432][285]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto2.uasset
+[2017.04.30-00.11.38:432][285]LogFileHelpers: Auto-saving content packages took 0.121
+[2017.04.30-00.14.10:049][363]BlueprintLog: New page: Compile RunCharacter
+[2017.04.30-00.14.17:716][682]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.14.17:722][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.17:722][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.14.17:722][682]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:14:17 PM)
+[2017.04.30-00.14.17:722][682]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.14.17:746][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023455s)
+[2017.04.30-00.14.17:747][682]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.14.17:747][682]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2017.04.30-00.14.17:747][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024574s)
+[2017.04.30-00.14.17:783][682]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.14.17:793][682]LogInit: FAudioDevice initialized.
+[2017.04.30-00.14.17:823][682]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.14.17:824][682]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.30-07.14.17
+[2017.04.30-00.14.17:825][682]LogWorld: Bringing up level for play took: 0.001815
+[2017.04.30-00.14.17:825][682]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.986
+[2017.04.30-00.14.17:826][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.21:593][893]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.21:634][893]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.24:050][ 28]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.14.24:056][ 28]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.24:056][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.14.24:056][ 28]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:14:24 PM)
+[2017.04.30-00.14.24:057][ 28]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.14.24:079][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022244s)
+[2017.04.30-00.14.24:079][ 28]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.14.24:079][ 28]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2017.04.30-00.14.24:080][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023138s)
+[2017.04.30-00.14.24:129][ 28]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.14.24:164][ 28]LogInit: FAudioDevice initialized.
+[2017.04.30-00.14.24:198][ 28]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.14.24:200][ 28]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.30-07.14.24
+[2017.04.30-00.14.24:200][ 28]LogWorld: Bringing up level for play took: 0.001913
+[2017.04.30-00.14.24:201][ 28]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.639
+[2017.04.30-00.14.24:201][ 28]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.25:748][118]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.25:822][118]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.38:165][827]LogEditorViewport: Clicking on Actor (LMB): RunCharacter_C (ThirdPersonCharacter)
+[2017.04.30-00.14.54:991][684]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.14.54:996][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.14.54:996][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.14.54:996][684]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:14:54 PM)
+[2017.04.30-00.14.54:996][684]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.14.55:018][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021633s)
+[2017.04.30-00.14.55:019][684]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.14.55:019][684]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2017.04.30-00.14.55:019][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023012s)
+[2017.04.30-00.14.55:174][684]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.14.55:195][684]LogInit: FAudioDevice initialized.
+[2017.04.30-00.14.55:232][684]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.14.55:236][684]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.30-07.14.55
+[2017.04.30-00.14.55:237][684]LogWorld: Bringing up level for play took: 0.003734
+[2017.04.30-00.14.55:238][684]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.398
+[2017.04.30-00.14.55:238][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.15.01:581][ 59]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.15.01:673][ 59]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.15.09:270][456]LogEditorViewport: Clicking on Actor (LMB): RunCharacter_C (ThirdPersonCharacter)
+[2017.04.30-00.15.19:891][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2017.04.30-00.15.19:961][976]LogSavePackage: Save=42.66ms
+[2017.04.30-00.15.19:961][976]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacter32B3E5274035E31F127259839D89B5E7.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2017.04.30-00.15.19:962][976]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2017.04.30-00.21.51:399][691]LogSavePackage: Save=116.21ms
+[2017.04.30-00.21.51:399][691]LogSavePackage: Moving '../../../../EndlessRunner/Saved/ThirdPersonExampleMap_Auto31AC008F54BFD96527CD1FBA2A7A6A76B.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2017.04.30-00.21.51:425][691]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2017.04.30-00.21.51:429][691]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.189
+[2017.04.30-00.21.51:429][691]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.189
+[2017.04.30-00.29.51:473][363]Cmd: TRANSACTION UNDO
+[2017.04.30-00.29.51:473][363]LogEditorTransaction: Undo Move Actors
+[2017.04.30-00.30.06:921][597]LogEditorViewport: Clicking on Actor (LMB): RunCharacter_C (ThirdPersonCharacter)
+[2017.04.30-00.30.09:273][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.30-00.30.11:348][860]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.04.30-00.30.18:612][462]LogEditorViewport: Clicking on Actor (LMB): RunCharacter_C (ThirdPersonCharacter)
+[2017.04.30-00.30.46:886][ 68]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.04.30-00.32.58:358][205]LogSavePackage: Save=185.28ms
+[2017.04.30-00.32.58:358][205]LogSavePackage: Moving '../../../../EndlessRunner/Saved/ThirdPersonExampleMap_Auto45F607F324FF24C3BFA88E7BBEA0B29DB.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.04.30-00.32.58:359][205]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.04.30-00.32.58:361][205]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.230
+[2017.04.30-00.32.58:361][205]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
+[2017.04.30-00.33.04:393][463]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.33.04:401][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.33.04:401][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.33.04:401][463]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:33:04 PM)
+[2017.04.30-00.33.04:401][463]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.33.04:424][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023605s)
+[2017.04.30-00.33.04:482][463]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.33.04:482][463]LogPlayLevel: PIE: World Init took: (0.057774s)
+[2017.04.30-00.33.04:482][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.081622s)
+[2017.04.30-00.33.04:512][463]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.33.04:522][463]LogInit: FAudioDevice initialized.
+[2017.04.30-00.33.04:553][463]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.33.04:556][463]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.30-07.33.04
+[2017.04.30-00.33.04:569][463]LogWorld: Bringing up level for play took: 0.015198
+[2017.04.30-00.33.04:585][463]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.256
+[2017.04.30-00.33.04:585][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.33.07:833][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.33.07:914][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.33.09:199][834]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.33.09:204][834]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.33.09:204][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.33.09:204][834]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:33:09 PM)
+[2017.04.30-00.33.09:204][834]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.33.09:225][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020060s)
+[2017.04.30-00.33.09:225][834]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.33.09:226][834]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2017.04.30-00.33.09:226][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021345s)
+[2017.04.30-00.33.09:263][834]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.33.09:273][834]LogInit: FAudioDevice initialized.
+[2017.04.30-00.33.09:312][834]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.33.09:317][834]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.30-07.33.09
+[2017.04.30-00.33.09:317][834]LogWorld: Bringing up level for play took: 0.004424
+[2017.04.30-00.33.09:319][834]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.479
+[2017.04.30-00.33.09:319][834]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.33.33:102][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.33.33:169][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.34.38:100][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.34.38:105][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.34.38:105][ 24]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-00.34.38:105][ 24]LogPlayLevel: [PlayLevel] Compiling RunCharacter before play...
+[2017.04.30-00.34.38:229][ 24]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2017.04.30-00.34.38:230][ 24]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:34:38 PM)
+[2017.04.30-00.34.38:230][ 24]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.34.38:249][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019495s)
+[2017.04.30-00.34.38:250][ 24]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.34.38:250][ 24]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2017.04.30-00.34.38:250][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020724s)
+[2017.04.30-00.34.38:284][ 24]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.34.38:294][ 24]LogInit: FAudioDevice initialized.
+[2017.04.30-00.34.38:330][ 24]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.34.38:333][ 24]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.30-07.34.38
+[2017.04.30-00.34.38:333][ 24]LogWorld: Bringing up level for play took: 0.001893
+[2017.04.30-00.34.38:334][ 24]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.507
+[2017.04.30-00.34.38:334][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.34.44:826][501]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.34.44:895][501]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.34.46:187][600]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.34.46:193][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.34.46:193][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.34.46:193][600]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 30, 2017, 2:34:46 PM)
+[2017.04.30-00.34.46:193][600]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.30-00.34.46:213][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019823s)
+[2017.04.30-00.34.46:214][600]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-00.34.46:214][600]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2017.04.30-00.34.46:214][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021459s)
+[2017.04.30-00.34.46:251][600]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.34.46:261][600]LogInit: FAudioDevice initialized.
+[2017.04.30-00.34.46:302][600]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.30-00.34.46:310][600]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.30-07.34.46
+[2017.04.30-00.34.46:311][600]LogWorld: Bringing up level for play took: 0.006802
+[2017.04.30-00.34.46:313][600]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.527
+[2017.04.30-00.34.46:313][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.34.51:798][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.34.51:864][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.30-00.36.06:685][150]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2017.04.30-00.36.30:369][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2017.04.30-00.36.30:415][853]LogSavePackage: Save=43.33ms
+[2017.04.30-00.36.30:415][853]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacterEC71B4344C7056EABFB966B66E8DD5EB.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2017.04.30-00.36.30:416][853]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2017.04.30-00.37.31:305][466]LogEditorTransaction: Undo Make New Scene Root
+[2017.04.30-00.37.35:378][656]LogEditorTransaction: Undo Add Component
+[2017.04.30-00.37.35:923][679]LogEditorTransaction: Undo Remove Components
+[2017.04.30-00.37.36:413][701]LogEditorTransaction: Undo Rename Component Variable
+[2017.04.30-00.37.36:600][709]LogEditorTransaction: Undo Add Component
+[2017.04.30-00.37.36:840][718]LogEditorTransaction: Undo Resize Node
+[2017.04.30-00.37.37:302][740]LogEditorTransaction: Undo Create Pin Link
+[2017.04.30-00.37.37:543][751]LogEditorTransaction: Undo Create Pin Link
+[2017.04.30-00.37.37:685][758]LogEditorTransaction: Undo Move Node
+[2017.04.30-00.37.37:904][768]LogEditorTransaction: Undo Add Node
+[2017.04.30-00.37.38:119][778]LogEditorTransaction: Undo Change Bool Pin Value
+[2017.04.30-00.41.19:399][363]LogEditorTransaction: Undo Duplicate Component
+[2017.04.30-00.41.37:666][170]LogEditorTransaction: Undo Duplicate Component
+[2017.04.30-00.43.14:197][279]LogEditorTransaction: Undo Add Component
+[2017.04.30-00.44.02:996][ 66]LogSavePackage: Save=152.33ms
+[2017.04.30-00.44.02:996][ 66]LogSavePackage: Moving '../../../../EndlessRunner/Saved/ThirdPersonExampleMap_Auto50CEAC63C4F7F6A56530927BBE360D5A6.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.04.30-00.44.02:997][ 66]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.04.30-00.44.02:998][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.220
+[2017.04.30-00.44.02:998][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.220
+[2017.04.30-00.44.03:002][ 66]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2017.04.30-00.44.03:002][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2017.04.30-00.44.03:069][ 66]LogSavePackage: Save=64.14ms
+[2017.04.30-00.44.03:069][ 66]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacter_Auto5936460634B3CEC938BB30682616ECFA4.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto5.uasset'
+[2017.04.30-00.44.03:070][ 66]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto5.uasset
+[2017.04.30-00.44.03:071][ 66]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile] ([1] browsable assets)...
+[2017.04.30-00.44.03:123][ 66]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_FloorTile.BP_FloorTile]
+[2017.04.30-00.44.03:123][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile]
+[2017.04.30-00.44.03:143][ 66]LogSavePackage: Save=19.33ms
+[2017.04.30-00.44.03:143][ 66]LogSavePackage: Moving '../../../../EndlessRunner/Saved/BP_FloorTile_Auto515E45E65417F03FC7010DB92D5F158CE.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_FloorTile_Auto5.uasset'
+[2017.04.30-00.44.03:144][ 66]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_FloorTile_Auto5.uasset
+[2017.04.30-00.44.03:144][ 66]LogFileHelpers: Auto-saving content packages took 0.143
+[2017.04.30-00.46.53:081][128]BlueprintLog: New page: Compile BP_FloorTile
+[2017.04.30-00.47.11:842][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_FloorTile" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset" SILENT=true
+[2017.04.30-00.47.11:866][278]LogSavePackage: Save=23.44ms
+[2017.04.30-00.47.11:866][278]LogSavePackage: Moving '../../../../EndlessRunner/Saved/BP_FloorTile1836B4E54CD51451D8D9CBA2D6DCC09C.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset'
+[2017.04.30-00.47.11:868][278]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset
+[2017.04.30-00.47.20:594][620]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-00.47.20:626][620]LightingResults: New page: Lighting Build
+[2017.04.30-00.47.20:629][620]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.04.30-00.47.20:635][620]MapCheck: New page: Map Check
+[2017.04.30-00.47.20:635][620]LightingResults: New page: Lighting Build
+[2017.04.30-00.47.20:943][620]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.30-00.47.20:963][620]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.30-00.47.20:967][620]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-00.47.21:040][620]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-00.47.21:105][620]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.517ms to complete.
+[2017.04.30-00.47.21:105][620]LogFileHelpers: Loading map 'Template_Default' took 0.612
+[2017.04.30-00.48.28:386][527]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2017.04.30-00.48.28:386][527]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/RunGameMode.SKEL_RunGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2017.04.30-00.48.28:412][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunGameMode" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset" SILENT=true
+[2017.04.30-00.48.28:424][527]LogSavePackage: Save=11.34ms
+[2017.04.30-00.48.28:424][527]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunGameModeC74ACAF54B8E4A15A117B68130EB0C53.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2017.04.30-00.48.28:426][527]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset
+[2017.04.30-00.48.45:372][442]LogEditorTransaction: Undo Add Node
+[2017.04.30-00.48.55:383][ 11]BlueprintLog: New page: Compile RunCharacter
+[2017.04.30-00.48.56:630][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2017.04.30-00.48.56:682][ 49]LogSavePackage: Save=49.43ms
+[2017.04.30-00.48.56:682][ 49]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacter6EFE28B64B6965798095869A610E260B.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2017.04.30-00.48.56:684][ 49]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2017.04.30-00.49.00:039][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2017.04.30-00.49.00:113][255]LogSavePackage: Save=51.24ms
+[2017.04.30-00.49.00:113][255]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacter264302964F32079BB18B9DA614BDD286.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2017.04.30-00.49.00:115][255]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2017.04.30-00.49.15:253][151]BlueprintLog: New page: Compile RunCharacter
+[2017.04.30-00.49.16:370][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2017.04.30-00.49.16:457][189]LogSavePackage: Save=84.75ms
+[2017.04.30-00.49.16:457][189]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunCharacterC9C247864EC104A481D291BCB78B5DAB.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2017.04.30-00.49.16:459][189]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2017.04.30-00.50.50:190][690]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.30-00.51.58:866][306]BlueprintLog: New page: Compile RunGameMode
+[2017.04.30-00.51.59:768][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunGameMode" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset" SILENT=true
+[2017.04.30-00.51.59:782][336]LogSavePackage: Save=11.61ms
+[2017.04.30-00.51.59:782][336]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunGameMode4232B73D48C36BFA0B733EA863261BDC.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2017.04.30-00.51.59:784][336]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset
+[2017.04.30-00.52.26:278][886]LogEditorTransaction: Undo Add Node
+[2017.04.30-00.53.14:056][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunGameMode" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset" SILENT=true
+[2017.04.30-00.53.14:067][225]LogSavePackage: Save=9.02ms
+[2017.04.30-00.53.14:067][225]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunGameModeDA4C52C24AF5589D14DC9D9E6E421DDE.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2017.04.30-00.53.14:069][225]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset
+[2017.04.30-00.53.14:862][276]BlueprintLog: New page: Compile RunGameMode
+[2017.04.30-00.53.30:402][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.30-00.53.31:350][699]Cmd: DELETE
+[2017.04.30-00.53.31:350][699]Cmd: ACTOR DELETE
+[2017.04.30-00.53.31:619][699]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.30-00.53.31:661][699]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2017.04.30-00.53.34:556][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.53.34:556][898]PIE: New page: SIE session: Untitled_1 (Apr 30, 2017, 2:53:34 PM)
+[2017.04.30-00.53.34:556][898]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.04.30-00.53.34:559][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003055s)
+[2017.04.30-00.53.34:560][898]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.30-00.53.34:560][898]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2017.04.30-00.53.34:560][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004155s)
+[2017.04.30-00.53.34:597][898]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.53.34:609][898]LogInit: FAudioDevice initialized.
+[2017.04.30-00.53.34:645][898]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2017.04.30-00.53.34:645][898]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2017.04.30-00.53.34:645][898]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2017.04.30-00.53.34:646][898]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-00.53.34:647][898]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.04.30-07.53.34
+[2017.04.30-00.53.34:647][898]LogWorld: Bringing up level for play took: 0.000851
+[2017.04.30-00.53.34:697][898]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.143
+[2017.04.30-00.53.42:121][353]LogTemp: Repeting last play command: Simulate
+[2017.04.30-00.53.42:126][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.53.42:127][353]PIE: New page: SIE session: Untitled_1 (Apr 30, 2017, 2:53:42 PM)
+[2017.04.30-00.53.42:127][353]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.04.30-00.53.42:130][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002324s)
+[2017.04.30-00.53.42:131][353]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.30-00.53.42:131][353]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2017.04.30-00.53.42:131][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003817s)
+[2017.04.30-00.53.42:169][353]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.53.42:180][353]LogInit: FAudioDevice initialized.
+[2017.04.30-00.53.42:216][353]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-00.53.42:217][353]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.04.30-07.53.42
+[2017.04.30-00.53.42:218][353]LogWorld: Bringing up level for play took: 0.001033
+[2017.04.30-00.53.42:219][353]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.621
+[2017.04.30-00.53.45:179][583]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.04.30-00.54.45:431][936]BlueprintLog: New page: Compile RunGameMode
+[2017.04.30-00.54.48:400][ 87]BlueprintLog: New page: Compile RunGameMode
+[2017.04.30-00.54.49:454][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunGameMode" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset" SILENT=true
+[2017.04.30-00.54.49:465][137]LogSavePackage: Save=9.36ms
+[2017.04.30-00.54.49:465][137]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunGameModeC95C6AE143B5EB3B66692092B7D4F04B.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2017.04.30-00.54.49:466][137]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset
+[2017.04.30-00.55.13:970][504]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.30-00.55.16:795][725]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.30-00.55.18:429][855]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.30-00.55.19:875][971]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.30-00.55.26:269][494]Cmd: TRANSACTION UNDO
+[2017.04.30-00.55.26:269][494]LogEditorTransaction: Undo Move Actors
+[2017.04.30-00.55.26:712][528]Cmd: TRANSACTION UNDO
+[2017.04.30-00.55.26:712][528]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.30-00.55.33:829][ 76]LogTemp: Repeting last play command: Simulate
+[2017.04.30-00.55.33:833][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.55.33:833][ 76]PIE: New page: SIE session: Untitled_1 (Apr 30, 2017, 2:55:33 PM)
+[2017.04.30-00.55.33:833][ 76]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.04.30-00.55.33:834][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001474s)
+[2017.04.30-00.55.33:835][ 76]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.30-00.55.33:835][ 76]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.04.30-00.55.33:835][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002385s)
+[2017.04.30-00.55.33:869][ 76]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.55.33:878][ 76]LogInit: FAudioDevice initialized.
+[2017.04.30-00.55.33:909][ 76]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-00.55.33:910][ 76]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.04.30-07.55.33
+[2017.04.30-00.55.33:910][ 76]LogWorld: Bringing up level for play took: 0.000863
+[2017.04.30-00.55.33:911][ 76]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.071
+[2017.04.30-00.55.38:384][375]Cmd: TRANSACTION UNDO
+[2017.04.30-00.55.38:385][375]LogEditorTransaction: Undo Create Actors
+[2017.04.30-00.55.52:907][269]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.30-00.55.58:291][690]LogTemp: Repeting last play command: Simulate
+[2017.04.30-00.55.58:295][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.55.58:295][690]PIE: New page: SIE session: Untitled_1 (Apr 30, 2017, 2:55:58 PM)
+[2017.04.30-00.55.58:295][690]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.04.30-00.55.58:296][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001580s)
+[2017.04.30-00.55.58:297][690]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.30-00.55.58:297][690]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2017.04.30-00.55.58:298][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002920s)
+[2017.04.30-00.55.58:329][690]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.55.58:338][690]LogInit: FAudioDevice initialized.
+[2017.04.30-00.55.58:369][690]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-00.55.58:370][690]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.04.30-07.55.58
+[2017.04.30-00.55.58:381][690]LogWorld: Bringing up level for play took: 0.012539
+[2017.04.30-00.55.58:383][690]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.457
+[2017.04.30-00.56.03:215][ 13]LogEditorViewport: Clicking on Actor (LMB): BP_FloorTile_C (BP_FloorTile)
+[2017.04.30-00.56.04:399][108]Cmd: DELETE
+[2017.04.30-00.56.04:399][108]Cmd: ACTOR DELETE
+[2017.04.30-00.56.04:399][108]LogEditorActor: Deleted Actor: BP_FloorTile_C
+[2017.04.30-00.56.04:431][108]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2017.04.30-00.58.10:347][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../EndlessRunner/Saved/Autosaves/Temp/Untitled_1_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.04.30-00.58.10:435][270]LogSavePackage: Save=87.59ms
+[2017.04.30-00.58.10:435][270]LogSavePackage: Moving '../../../../EndlessRunner/Saved/Untitled_1_Auto695E06B904302688C240DB9A55DC7E059.tmp' to '../../../../EndlessRunner/Saved/Autosaves/Temp/Untitled_1_Auto6.umap'
+[2017.04.30-00.58.10:436][270]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Saved/Autosaves/Temp/Untitled_1_Auto6.umap
+[2017.04.30-00.58.10:437][270]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.119
+[2017.04.30-00.58.10:437][270]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.119
+[2017.04.30-00.58.38:089][688]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.30-00.58.44:656][252]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.30-00.58.45:504][319]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.04.30-00.58.48:418][520]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.04.30-01.00.44:234][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunGameMode" FILE="../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset" SILENT=true
+[2017.04.30-01.00.44:251][441]LogSavePackage: Save=9.46ms
+[2017.04.30-01.00.44:251][441]LogSavePackage: Moving '../../../../EndlessRunner/Saved/RunGameMode13BE2799469386781E013380C8D9DA44.tmp' to '../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2017.04.30-01.00.44:252][441]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset
+[2017.04.30-01.01.08:022][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Scene1" FILE="../../../../EndlessRunner/Content/Level/Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-01.01.08:085][555]LogSavePackage: Save=26.19ms
+[2017.04.30-01.01.08:085][555]LogSavePackage: Moving '../../../../EndlessRunner/Saved/Scene11F2DBB8743B4C8110A4F519DCAE79241.tmp' to '../../../../EndlessRunner/Content/Level/Scene1.umap'
+[2017.04.30-01.01.08:086][555]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/Level/Scene1.umap
+[2017.04.30-01.01.08:142][555]LogFileHelpers: Saving map 'Scene1' took 2.603
+[2017.04.30-01.01.14:834][971]LogActorFactory: Actor Factory created Cube
+[2017.04.30-01.01.15:421][ 19]LogActorFactory: Actor Factory created Cube
+[2017.04.30-01.01.17:451][178]Cmd: DELETE
+[2017.04.30-01.01.17:451][178]Cmd: ACTOR DELETE
+[2017.04.30-01.01.17:451][178]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.30-01.01.17:483][178]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2017.04.30-01.01.32:277][423]LogEditor: Attempting to add actor of class 'CableActor' to level at -160.00,-330.00,0.00
+[2017.04.30-01.01.32:915][452]LogEditor: Attempting to add actor of class 'CableActor' to level at 150.00,-40.00,-180.00
+[2017.04.30-01.01.34:492][589]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (level)
+[2017.04.30-01.01.35:644][682]LogEditorViewport: Clicking on Actor (LMB): CableActor (CableActor1)
+[2017.04.30-01.01.37:049][802]Cmd: DELETE
+[2017.04.30-01.01.37:049][802]Cmd: ACTOR DELETE
+[2017.04.30-01.01.37:049][802]LogEditorActor: Deleted Actor: CableActor
+[2017.04.30-01.01.37:078][802]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.04.30-01.01.40:653][128]LogEditor: Attempting to add actor of class 'CameraRig_Crane' to level at -190.00,-310.00,-30.00
+[2017.04.30-01.01.41:772][226]LogEditor: Attempting to add actor of class 'CameraRig_Crane' to level at 70.00,-50.00,-230.00
+[2017.04.30-01.01.43:332][359]Cmd: DELETE
+[2017.04.30-01.01.43:332][359]Cmd: ACTOR DELETE
+[2017.04.30-01.01.43:333][359]LogEditorActor: Deleted Actor: CameraRig_Crane
+[2017.04.30-01.01.43:361][359]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.04.30-01.01.44:580][473]LogEditor: Attempting to add actor of class 'CameraRig_Rail' to level at -200.00,-300.00,-70.00
+[2017.04.30-01.01.45:040][512]LogEditor: Attempting to add actor of class 'CameraRig_Rail' to level at 40.00,-150.00,-160.00
+[2017.04.30-01.01.46:224][614]Cmd: DELETE
+[2017.04.30-01.01.46:224][614]Cmd: ACTOR DELETE
+[2017.04.30-01.01.46:225][614]LogEditorActor: Deleted Actor: CameraRig_Rail
+[2017.04.30-01.01.46:252][614]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.04.30-01.01.54:646][245]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 180 MB total VRAM
+[2017.04.30-01.01.54:930][245]LogEditorSelectUtils:Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2017.04.30-01.01.54:930][245]LogActorComponent: RegisterComponentWithWorld: (/Game/Level/Scene1.Scene1:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.30-01.01.54:930][245]LogEditorSelectUtils:Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2017.04.30-01.02.00:714][724]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (level)
+[2017.04.30-01.02.08:510][387]Cmd: TRANSACTION UNDO
+[2017.04.30-01.02.08:511][387]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.30-01.02.09:256][445]Cmd: TRANSACTION UNDO
+[2017.04.30-01.02.09:256][445]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.30-01.02.09:724][483]Cmd: TRANSACTION UNDO
+[2017.04.30-01.02.09:725][483]LogEditorTransaction: Undo Create Actors
+[2017.04.30-01.02.10:203][520]Cmd: TRANSACTION UNDO
+[2017.04.30-01.02.10:203][520]LogEditorTransaction: Undo Delete Actors
+[2017.04.30-01.02.10:696][557]Cmd: TRANSACTION UNDO
+[2017.04.30-01.02.10:696][557]LogEditorTransaction: Undo Create Actors
+[2017.04.30-01.02.15:762][997]LogTexture:Display: Building textures: Texture2D_3 (G8, 128X128) - 180 MB total VRAM
+[2017.04.30-01.02.20:163][390]Cmd: TRANSACTION REDO
+[2017.04.30-01.02.20:163][390]LogEditorTransaction: Redo Create Actors
+[2017.04.30-01.02.20:523][415]Cmd: TRANSACTION REDO
+[2017.04.30-01.02.20:523][415]LogEditorTransaction: Redo Delete Actors
+[2017.04.30-01.02.21:317][486]Cmd: TRANSACTION REDO
+[2017.04.30-01.02.21:317][486]LogEditorTransaction: Redo Create Actors
+[2017.04.30-01.02.21:707][520]Cmd: TRANSACTION REDO
+[2017.04.30-01.02.21:707][520]LogEditorTransaction: Redo Clicking on Actors
+[2017.04.30-01.02.22:128][557]Cmd: TRANSACTION REDO
+[2017.04.30-01.02.22:128][557]LogEditorTransaction: Redo Clicking on Actors
+[2017.04.30-01.02.38:910][ 73]LogActor:Warning: VREditorButton /Engine/Transient.World_25:PersistentLevel.VREditorButton_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.04.30-01.02.45:013][534]Cmd: DELETE
+[2017.04.30-01.02.45:013][534]Cmd: ACTOR DELETE
+[2017.04.30-01.02.45:014][534]LogEditorActor: Deleted Actor: RunCharacter_C
+[2017.04.30-01.02.45:081][534]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2017.04.30-01.02.46:153][633]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.04.30-01.02.50:486][ 14]Cmd: DELETE
+[2017.04.30-01.02.50:486][ 14]Cmd: ACTOR DELETE
+[2017.04.30-01.02.50:487][ 14]LogEditorActor: Deleted Actor: PlayerStart
+[2017.04.30-01.02.50:515][ 14]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.04.30-01.03.04:331][840]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.30-01.03.42:458][303]LogTemp: Repeting last play command: Simulate
+[2017.04.30-01.03.42:465][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-01.03.42:465][303]PIE: New page: SIE session: Scene1 (Apr 30, 2017, 3:03:42 PM)
+[2017.04.30-01.03.42:465][303]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Scene1
+[2017.04.30-01.03.42:467][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001704s)
+[2017.04.30-01.03.42:468][303]LogAIModule: Creating AISystem for world Scene1
+[2017.04.30-01.03.42:468][303]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2017.04.30-01.03.42:469][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Scene1.Scene1 to /Game/Level/UEDPIE_0_Scene1.Scene1 (0.003232s)
+[2017.04.30-01.03.42:499][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-01.03.42:508][303]LogInit: FAudioDevice initialized.
+[2017.04.30-01.03.42:583][303]LogLoad: Game class is 'GameModeBase'
+[2017.04.30-01.03.42:585][303]LogWorld: Bringing World /Game/Level/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 0) at 2017.04.30-08.03.42
+[2017.04.30-01.03.42:585][303]LogWorld: Bringing up level for play took: 0.001593
+[2017.04.30-01.03.42:587][303]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Scene1 -0.253
+[2017.04.30-01.03.57:773][729]LogPlayLevel: Launcher Device ID: HTML5@C:/Program Files (x86)/Google/Chrome/Application/chrome.exe
+[2017.04.30-01.03.57:859][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-01.04.00:344][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Scene1" FILE="../../../../EndlessRunner/Content/Level/Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-01.04.00:400][729]LogSavePackage: Save=25.87ms
+[2017.04.30-01.04.00:400][729]LogSavePackage: Moving '../../../../EndlessRunner/Saved/Scene10F6AE7A04809394A50BDBE9DE664331E.tmp' to '../../../../EndlessRunner/Content/Level/Scene1.umap'
+[2017.04.30-01.04.00:402][729]LogSavePackage:Display: Finished SavePackage ../../../../EndlessRunner/Content/Level/Scene1.umap
+[2017.04.30-01.04.00:409][729]LogFileHelpers: Saving map 'Scene1' took 0.139
+[2017.04.30-01.04.00:694][729]LogCook:Display: Cooked content cleared for platform AllDesktop
+[2017.04.30-01.04.00:897][729]LogCook:Display: Unable to read previous cook inisettings for platform AllDesktop invalidating cook
+[2017.04.30-01.04.01:268][729]LogCook:Display: Cooked content cleared for platform MacClient
+[2017.04.30-01.04.01:268][729]LogCook:Display: Unable to read previous cook inisettings for platform MacClient invalidating cook
+[2017.04.30-01.04.01:315][729]LogCook:Display: Cooked content cleared for platform MacNoEditor
+[2017.04.30-01.04.01:315][729]LogCook:Display: Unable to read previous cook inisettings for platform MacNoEditor invalidating cook
+[2017.04.30-01.04.01:363][729]LogCook:Display: Cooked content cleared for platform MacServer
+[2017.04.30-01.04.01:363][729]LogCook:Display: Unable to read previous cook inisettings for platform MacServer invalidating cook
+[2017.04.30-01.04.01:407][729]LogCook:Display: Cooked content cleared for platform Mac
+[2017.04.30-01.04.01:407][729]LogCook:Display: Unable to read previous cook inisettings for platform Mac invalidating cook
+[2017.04.30-01.04.01:482][729]LogCook:Display: Cooked content cleared for platform WindowsClient
+[2017.04.30-01.04.01:482][729]LogCook:Display: Unable to read previous cook inisettings for platform WindowsClient invalidating cook
+[2017.04.30-01.04.01:529][729]LogCook:Display: Cooked content cleared for platform WindowsNoEditor
+[2017.04.30-01.04.01:529][729]LogCook:Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2017.04.30-01.04.01:612][729]LogCook:Display: Cooked content cleared for platform WindowsServer
+[2017.04.30-01.04.01:612][729]LogCook:Display: Unable to read previous cook inisettings for platform WindowsServer invalidating cook
+[2017.04.30-01.04.01:661][729]LogCook:Display: Cooked content cleared for platform Windows
+[2017.04.30-01.04.01:662][729]LogCook:Display: Unable to read previous cook inisettings for platform Windows invalidating cook
+[2017.04.30-01.04.01:757][729]LogCook:Display: Cooked content cleared for platform Android
+[2017.04.30-01.04.01:757][729]LogCook:Display: Unable to read previous cook inisettings for platform Android invalidating cook
+[2017.04.30-01.04.01:808][729]LogCook:Display: Cooked content cleared for platform Android_ASTC
+[2017.04.30-01.04.01:808][729]LogCook:Display: Unable to read previous cook inisettings for platform Android_ASTC invalidating cook
+[2017.04.30-01.04.01:868][729]LogCook:Display: Cooked content cleared for platform Android_ATC
+[2017.04.30-01.04.01:869][729]LogCook:Display: Unable to read previous cook inisettings for platform Android_ATC invalidating cook
+[2017.04.30-01.04.01:955][729]LogCook:Display: Cooked content cleared for platform Android_DXT
+[2017.04.30-01.04.01:955][729]LogCook:Display: Unable to read previous cook inisettings for platform Android_DXT invalidating cook
+[2017.04.30-01.04.02:015][729]LogCook:Display: Cooked content cleared for platform Android_ETC1
+[2017.04.30-01.04.02:015][729]LogCook:Display: Unable to read previous cook inisettings for platform Android_ETC1 invalidating cook
+[2017.04.30-01.04.02:069][729]LogCook:Display: Cooked content cleared for platform Android_ETC2
+[2017.04.30-01.04.02:069][729]LogCook:Display: Unable to read previous cook inisettings for platform Android_ETC2 invalidating cook
+[2017.04.30-01.04.02:118][729]LogCook:Display: Cooked content cleared for platform Android_Multi
+[2017.04.30-01.04.02:118][729]LogCook:Display: Unable to read previous cook inisettings for platform Android_Multi invalidating cook
+[2017.04.30-01.04.02:194][729]LogCook:Display: Cooked content cleared for platform Android_PVRTC
+[2017.04.30-01.04.02:195][729]LogCook:Display: Unable to read previous cook inisettings for platform Android_PVRTC invalidating cook
+[2017.04.30-01.04.02:266][729]LogCook:Display: Cooked content cleared for platform HTML5
+[2017.04.30-01.04.02:267][729]LogCook:Display: Unable to read previous cook inisettings for platform HTML5 invalidating cook
+[2017.04.30-01.04.02:344][729]LogCook:Display: Cooked content cleared for platform IOS
+[2017.04.30-01.04.02:344][729]LogCook:Display: Unable to read previous cook inisettings for platform IOS invalidating cook
+[2017.04.30-01.04.02:390][729]LogCook:Display: Cooked content cleared for platform TVOS
+[2017.04.30-01.04.02:390][729]LogCook:Display: Unable to read previous cook inisettings for platform TVOS invalidating cook
+[2017.04.30-01.04.02:435][729]LogCook:Display: Cooked content cleared for platform LinuxClient
+[2017.04.30-01.04.02:436][729]LogCook:Display: Unable to read previous cook inisettings for platform LinuxClient invalidating cook
+[2017.04.30-01.04.02:482][729]LogCook:Display: Cooked content cleared for platform LinuxNoEditor
+[2017.04.30-01.04.02:482][729]LogCook:Display: Unable to read previous cook inisettings for platform LinuxNoEditor invalidating cook
+[2017.04.30-01.04.02:525][729]LogCook:Display: Cooked content cleared for platform LinuxServer
+[2017.04.30-01.04.02:525][729]LogCook:Display: Unable to read previous cook inisettings for platform LinuxServer invalidating cook
+[2017.04.30-01.04.02:600][729]LogCook:Display: Cooked content cleared for platform Linux
+[2017.04.30-01.04.02:600][729]LogCook:Display: Unable to read previous cook inisettings for platform Linux invalidating cook
+[2017.04.30-01.04.02:646][729]LogCook:Display: Sandbox cleanup took 1.952 seconds for platforms AllDesktop MacClient MacNoEditor MacServer Mac WindowsClient WindowsNoEditor WindowsServer Windows Android Android_ASTC Android_ATC Android_DXT Android_ETC1 Android_ETC2 Android_Multi Android_PVRTC HTML5 IOS TVOS LinuxClient LinuxNoEditor LinuxServer Linux  iterative false
+[2017.04.30-01.04.04:808][729]LogCook:Display: Verify cooked packages: 
+Packages considered for dependency checks: 0, 
+Packages failed dependency checks 0, 
+Found redirectors: 0, 
+Packages Kept: 0, 
+Packages Missing: 0, 
+Packages Deleted: 0
+[2017.04.30-01.04.05:092][729]LogCook:Display: Sandbox cleanup took 2.446 seconds for platforms AllDesktop MacClient MacNoEditor MacServer Mac WindowsClient WindowsNoEditor WindowsServer Windows Android Android_ASTC Android_ATC Android_DXT Android_ETC1 Android_ETC2 Android_Multi Android_PVRTC HTML5 IOS TVOS LinuxClient LinuxNoEditor LinuxServer Linux  iterative true
+[2017.04.30-01.04.05:115][729]LogChunkManifestGenerator: bChunkHardReferencesOnly: 0
+[2017.04.30-01.04.05:248][729]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.30-01.04.05:502][729]LogAIModule: Creating AISystem for world Entry
+[2017.04.30-01.04.05:503][729]LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
